@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CoreDataPlatform/Entities/CDRecipe+CoreDataClass.swift">
-   </FileRef>
-   <FileRef
-      location = "group:CoreDataPlatform/Entities/CDRecipe+CoreDataProperties.swift">
-   </FileRef>
-   <FileRef
       location = "group:Recipes.xcodeproj">
    </FileRef>
    <FileRef

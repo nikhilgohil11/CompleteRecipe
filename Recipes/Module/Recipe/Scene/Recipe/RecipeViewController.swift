@@ -1,9 +1,9 @@
 //
-//  RecipeViewController.swift
-//  MVVM2019June20
+//  RecipeNavigationTypes.swift
+//  Recipes
 //
-//  Created by Yee Chuan Lee on 01/07/2019.
-//  Copyright © 2019 Yee Chuan Lee. All rights reserved.
+//  Created by Nikhil Gohil on 10/05/2020.
+//  Copyright © 2020 gohil. All rights reserved.
 //
 
 import UIKit

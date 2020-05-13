@@ -27,7 +27,7 @@ protocol BasePaginationViewModelType {
 }
 
 //class BasePaginationViewModel<Res, SM, FM> : BaseViewModel, BasePaginationViewModelType where SM: SectionModelType { //..
-class BasePaginationViewModel< SM, FM> : BaseViewModel, BasePaginationViewModelType where SM: SectionModelType {
+class BasePaginationViewModel<SM, FM> : BaseViewModel, BasePaginationViewModelType where SM: SectionModelType {
 
     //MARK: Input
     @ViewEvent var filterDidBeginEditing: Driver<Void> = .never()
@@ -62,12 +62,6 @@ class BasePaginationViewModel< SM, FM> : BaseViewModel, BasePaginationViewModelT
     override func transform() {
         super.transform()
         
-//        let modelOnStartLoad = Driver.merge(self.startLoad)
-//              .flatMap({
-//                  return self.getStartLoadData()
-//              })
-//              .do(onNext: self.resetAsFirstPage)
-        
 //        let modelOnStartLoad = Driver.merge(self.searchTextDidEndEditing,
 //                                            self.startLoad,
 //                                            self.filterDidEndEditing)
@@ -76,10 +70,10 @@ class BasePaginationViewModel< SM, FM> : BaseViewModel, BasePaginationViewModelT
 //            })
 //            .do(onNext: self.resetAsFirstPage)
 //
-        let modelOnReload = self.startReload
-            .flatMap({
-                return self.getReloadData()
-            })
+//        let modelOnReload = startReload
+//            .flatMap({
+//                return self.getReloadData()
+//            })
 //            .do(onNext: self.resetAsFirstPage) //..
 
 //        let modelOnLoadMore = startLoadMore.flatMap(getLoadMoreData)
@@ -140,46 +134,31 @@ class BasePaginationViewModel< SM, FM> : BaseViewModel, BasePaginationViewModelT
 //    func createSections() -> Driver<[SM]> {
 //        return self.listItemsRelay.asDriver().map(self.createSections)
 //    }
-    //WARNING: Abstract function, subclass should implement it
-    func mapResponseToItems(output: [SM.Item]) -> [SM.Item] {
-        return []
-    }
+//    //WARNING: Abstract function, subclass should implement it
+//    func mapResponseToItems(output: Res) -> [SM.Item] {
+//        return []
+//    }
 //
 //    //WARNING: Abstract function, subclass should implement it
 //    func createSections(list: [SM.Item]) -> [SM] {
 //        return []
 //    }
 //
-    //WARNING: Abstract function, subclass should implement it
-    func getStartLoadData() -> [SM.Item] {
+//    //WARNING: Abstract function, subclass should implement it
+//    func getStartLoadData() -> Driver<Res> {
 //        return Driver.never()
-        //track errro
-        //track activity
-        //dont track stop event
-    }
+//        //track errro
+//        //track activity
+//        //dont track stop event
+//    }
 //
 //    //WARNING: Abstract function, subclass should implement it
-    func getReloadData() -> [SM.Item] {
+//    func getReloadData() -> Driver<Res> {
 //        return Driver.never()
-        //track errro
-        //also dont track activity
-        //track stop event for reload
-    }
-    
-    func resetAsFirstPage(output: [SM.Item]) {
-          let items = mapResponseToItems(output: output)
-          if items.count >= pageSize {
-              listItemsRelay.accept(items)
-              pageIndex = 1
-              canLoadMore.accept(enableLoadMore)
-          } else { getStartLoadData
-              //No more data to load
-              listItemsRelay.accept(items)
-              pageIndex = 1
-              canLoadMore.accept(false)
-          }
-      }
-    
+//        //track errro
+//        //also dont track activity
+//        //track stop event for reload
+//    }
 //
 //    //WARNING: Abstract function, subclass should implement it
 //    func getLoadMoreData() -> Driver<Res> {

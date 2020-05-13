@@ -7,17 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "87F7F130-C5C8-401F-9FF6-D9C1494751E6"
+            uuid = "1FA3ACCE-EF44-4F39-B03E-7C6052DD2772"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Recipes/Module/Recipe/Scene/Recipes/RecipeTableViewCell.swift"
+            filePath = "Recipes/Module/Recipe/Scene/Recipes/RecipeListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "RecipeTableViewCell"
-            landmarkType = "3">
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "setupListView()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

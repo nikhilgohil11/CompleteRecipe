@@ -11,6 +11,7 @@ import Foundation
 extension DI : DIRegistor {
     static func register() {
 //        Constant.register()
+        
         Model.register()
         View.register()
         ViewModel.register()

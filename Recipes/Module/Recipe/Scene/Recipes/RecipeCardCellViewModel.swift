@@ -1,9 +1,9 @@
 //
-//  RecipeCardCellViewModel.swift
-//  MVVM2019June20
+//  RecipeNavigationTypes.swift
+//  Recipes
 //
-//  Created by Yee Chuan Lee on 02/07/2019.
-//  Copyright © 2019 Yee Chuan Lee. All rights reserved.
+//  Created by Nikhil Gohil on 10/05/2020.
+//  Copyright © 2020 gohil. All rights reserved.
 //
 
 import Foundation
@@ -16,11 +16,7 @@ struct RecipeCardCellViewModel {
     var headerSubTitleText: String?
     var headerTypeText: String?
     //State
-    var recipe: Recipe? //..
+    var RecipeSearchResult: Recipe? //..
     //Initializer
-    init (with recipe:Recipe) {
-        self.recipe = recipe
-        self.headerTitleText = recipe.title.uppercased
-        self.headerSubTitleText = recipe.subtitle
-        self.headerTypeText = recipe.type
-    }}
+    init() { }
+}

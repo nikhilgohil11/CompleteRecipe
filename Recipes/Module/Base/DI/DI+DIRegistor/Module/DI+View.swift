@@ -23,8 +23,8 @@ extension DI {
                     return storyboard.instantiateViewController(withIdentifier: "RecipeViewController")
                 }
                 DI.container.register(RecipeListViewControllerType.self) { r -> RecipeListViewControllerType in
-                    let listview = storyboard.instantiateViewController(withIdentifier: "RecipeListViewController") as! RecipeListViewController
-                    listview.managedObjectContext = CoreDataStack().managedObjectContext //..
+                    var listview = storyboard.instantiateViewController(withIdentifier: "RecipeListViewController") as! RecipeListViewController
+//                    listview?.managedObjectContext = CoreDataStack().managedObjectContext
                     return listview
                 }
             }

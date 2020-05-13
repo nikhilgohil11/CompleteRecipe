@@ -9,7 +9,7 @@
 import Foundation
 
 struct Recipe {
-    var uid : String
+    var id : String
     var image : String
     var title : String
     var subtitle : String

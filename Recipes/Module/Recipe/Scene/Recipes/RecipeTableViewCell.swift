@@ -22,6 +22,9 @@ class RecipeTableViewCell: UITableViewCell {
     @IBOutlet weak var subTitleLabel: UILabel!
     @IBOutlet weak var typeLabel: UILabel!
     
+    override func prepareForReuse() {
+        dispose()
+    }
     
     override func awakeFromNib() {
         
@@ -39,5 +42,11 @@ class RecipeTableViewCell: UITableViewCell {
                 typeLabel.text = viewModel.headerTypeText
             }
         }
+    }
+}
+
+extension Reactive where Base : RecipeTableViewCell {
+    var didTap: Driver<RecipeCardCellViewModel> {
+        return base.paddingView.rx.tapGesture().when(.recognized).asVoid().asDriverOnErrorJustComplete().map { _ in self.base.viewModel! }
     }
 }

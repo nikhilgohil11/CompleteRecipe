@@ -50,7 +50,6 @@ class BasePaginationViewController<VM>: BaseViewController<VM>, BasePaginationVi
     //MARK: setupTransformInput
     override func setupTransformInput() {
         super.setupTransformInput()
-        viewModel.view = self
         viewModel.startReload = self.rx.reload
         viewModel.startLoadMore = self.rx.loadMore
     }

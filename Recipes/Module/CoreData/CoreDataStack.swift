@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-class CoreDataStack {
+struct CoreDataStack {
     // MARK: - Core Data stack
 
     lazy var applicationDocumentsDirectory: URL = {
@@ -23,8 +23,7 @@ class CoreDataStack {
 
     lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator = {
         let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
-        let url = self.applicationDocumentsDirectory.appendingPathComponent("Recipes.sqlite")
-        print(url)
+        let url = self.applicationDocumentsDirectory.appendingPathComponent("RxCoreData.sqlite")
         var failureReason = "There was an error creating or loading the application's saved data."
         
         do {

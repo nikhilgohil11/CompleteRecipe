@@ -163,7 +163,6 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/QueryKit/QueryKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxBiBinding/RxBiBinding.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCoreData/RxCoreData.framework"
@@ -178,7 +177,6 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/QueryKit/QueryKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxBiBinding/RxBiBinding.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCoreData/RxCoreData.framework"
