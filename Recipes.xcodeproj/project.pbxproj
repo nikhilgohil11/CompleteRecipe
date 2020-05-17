@@ -18,6 +18,7 @@
 		6F03C198246A0CEA00F22F54 /* OptionalString+OrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F03C191246A0CEA00F22F54 /* OptionalString+OrEmpty.swift */; };
 		6F03C1D1246A82EB00F22F54 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F03C1D0246A82EB00F22F54 /* CoreDataStack.swift */; };
 		6F8381A6246861500065B2D3 /* NSObject+TypeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8381A3246861500065B2D3 /* NSObject+TypeName.swift */; };
+		6F9A65A1247128EE00BBCC18 /* UIView+isShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A65A0247128EE00BBCC18 /* UIView+isShow.swift */; };
 		6F9A88D024614DC400912ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A88CF24614DC400912ADB /* AppDelegate.swift */; };
 		6F9A88D224614DC400912ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A88D124614DC400912ADB /* SceneDelegate.swift */; };
 		6F9A88D424614DC400912ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A88D324614DC400912ADB /* ViewController.swift */; };
@@ -55,15 +56,6 @@
 		6F9A894C246482FA00912ADB /* WeakAssociateObjectUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A894A246482FA00912ADB /* WeakAssociateObjectUtility.swift */; };
 		6F9A894D246482FA00912ADB /* AssociatedObjectUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A894B246482FA00912ADB /* AssociatedObjectUtility.swift */; };
 		6F9A894F2464861300912ADB /* UIView+Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A894E2464861300912ADB /* UIView+Disposable.swift */; };
-		6F9A895F246486F600912ADB /* StopEventTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A8950246486F600912ADB /* StopEventTracker.swift */; };
-		6F9A8961246486F600912ADB /* DisposeBagHolderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A8952246486F600912ADB /* DisposeBagHolderType.swift */; };
-		6F9A8962246486F600912ADB /* DisposeBagHolderType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A8953246486F600912ADB /* DisposeBagHolderType+Extension.swift */; };
-		6F9A8964246486F600912ADB /* RxOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A8957246486F600912ADB /* RxOperator.swift */; };
-		6F9A8965246486F600912ADB /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A8958246486F600912ADB /* Observable+Ext.swift */; };
-		6F9A8967246486F600912ADB /* UITextField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A895B246486F600912ADB /* UITextField+Rx.swift */; };
-		6F9A8968246486F600912ADB /* UIImagePickerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A895C246486F600912ADB /* UIImagePickerController+Rx.swift */; };
-		6F9A8969246486F600912ADB /* RxImagePickerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A895D246486F600912ADB /* RxImagePickerDelegateProxy.swift */; };
-		6F9A896A246486F600912ADB /* RxTextFieldDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A895E246486F600912ADB /* RxTextFieldDelegateProxy.swift */; };
 		6F9A897B24648BD600912ADB /* RecipeIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A896D24648BD600912ADB /* RecipeIntent.swift */; };
 		6F9A897C24648BD600912ADB /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A897024648BD600912ADB /* RecipeViewController.swift */; };
 		6F9A897D24648BD600912ADB /* RecipeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A897124648BD600912ADB /* RecipeTypes.swift */; };
@@ -74,8 +66,6 @@
 		6F9A898324648BD600912ADB /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A897824648BD600912ADB /* RecipeTableViewCell.swift */; };
 		6F9A898424648BD600912ADB /* RecipeListTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A897924648BD600912ADB /* RecipeListTypes.swift */; };
 		6F9A898524648BD600912ADB /* Recipes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9A897A24648BD600912ADB /* Recipes.storyboard */; };
-		6FA62DDA246BB6870044CA26 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA62DD9246BB6870044CA26 /* ActivityIndicator.swift */; };
-		6FA62DDC246BB6980044CA26 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA62DDB246BB6980044CA26 /* ErrorTracker.swift */; };
 		6FB9AADA24679F6200DC28C3 /* RecipeTypes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6FB9AAD924679F6200DC28C3 /* RecipeTypes.xml */; };
 		6FB9AADD2467BB5100DC28C3 /* RecipeNavigationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB9AADC2467BB5100DC28C3 /* RecipeNavigationTypes.swift */; };
 		6FB9AADF2467BB6900DC28C3 /* RecipeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB9AADE2467BB6900DC28C3 /* RecipeNavigationController.swift */; };
@@ -86,6 +76,18 @@
 		6FB9AAEF2467D16A00DC28C3 /* LoadMoreItemsViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB9AAEB2467D16A00DC28C3 /* LoadMoreItemsViewControllerType.swift */; };
 		6FB9AAF02467D16A00DC28C3 /* LoadMoreItemsViewControllerTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB9AAEC2467D16A00DC28C3 /* LoadMoreItemsViewControllerTypeExtensions.swift */; };
 		6FB9AAF12467D16A00DC28C3 /* ReloadItemsViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB9AAED2467D16A00DC28C3 /* ReloadItemsViewControllerType.swift */; };
+		6FD23186246FE55C00BFD6E3 /* DisposeBagHolderType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2317F246FE55900BFD6E3 /* DisposeBagHolderType+Extension.swift */; };
+		6FD23187246FE55C00BFD6E3 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD23180246FE55A00BFD6E3 /* ErrorTracker.swift */; };
+		6FD23188246FE55C00BFD6E3 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD23181246FE55A00BFD6E3 /* Observable+Ext.swift */; };
+		6FD23189246FE55C00BFD6E3 /* RxOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD23182246FE55B00BFD6E3 /* RxOperator.swift */; };
+		6FD2318A246FE55C00BFD6E3 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD23183246FE55B00BFD6E3 /* ActivityIndicator.swift */; };
+		6FD2318B246FE55C00BFD6E3 /* DisposeBagHolderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD23184246FE55C00BFD6E3 /* DisposeBagHolderType.swift */; };
+		6FD2318C246FE55C00BFD6E3 /* StopEventTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD23185246FE55C00BFD6E3 /* StopEventTracker.swift */; };
+		6FD23192246FE57B00BFD6E3 /* UITextField+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2318E246FE57900BFD6E3 /* UITextField+Rx.swift */; };
+		6FD23193246FE57B00BFD6E3 /* UIImagePickerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2318F246FE57A00BFD6E3 /* UIImagePickerController+Rx.swift */; };
+		6FD23194246FE57B00BFD6E3 /* RxTextFieldDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD23190246FE57A00BFD6E3 /* RxTextFieldDelegateProxy.swift */; };
+		6FD23195246FE57B00BFD6E3 /* RxImagePickerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD23191246FE57B00BFD6E3 /* RxImagePickerDelegateProxy.swift */; };
+		6FD23199246FE59700BFD6E3 /* UIView+RxIsShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD23198246FE59700BFD6E3 /* UIView+RxIsShow.swift */; };
 		6FDC353B2469013F002A7EBB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC35392469013F002A7EBB /* Model.xcdatamodeld */; };
 		6FDC354624690273002A7EBB /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC354524690273002A7EBB /* Recipe.swift */; };
 		BCFE1A6388DA1E17A3B810E1 /* Pods_Recipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF50F97D26E57474CE2DDDF5 /* Pods_Recipes.framework */; };
@@ -114,6 +116,7 @@
 		6F03C191246A0CEA00F22F54 /* OptionalString+OrEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OptionalString+OrEmpty.swift"; sourceTree = "<group>"; };
 		6F03C1D0246A82EB00F22F54 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		6F8381A3246861500065B2D3 /* NSObject+TypeName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+TypeName.swift"; sourceTree = "<group>"; };
+		6F9A65A0247128EE00BBCC18 /* UIView+isShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+isShow.swift"; sourceTree = "<group>"; };
 		6F9A88CC24614DC400912ADB /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9A88CF24614DC400912ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F9A88D124614DC400912ADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,15 +158,6 @@
 		6F9A894A246482FA00912ADB /* WeakAssociateObjectUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakAssociateObjectUtility.swift; sourceTree = "<group>"; };
 		6F9A894B246482FA00912ADB /* AssociatedObjectUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedObjectUtility.swift; sourceTree = "<group>"; };
 		6F9A894E2464861300912ADB /* UIView+Disposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Disposable.swift"; sourceTree = "<group>"; };
-		6F9A8950246486F600912ADB /* StopEventTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StopEventTracker.swift; path = "../../../../MVVM2019-master/Library/RxHelper/StopEventTracker.swift"; sourceTree = "<group>"; };
-		6F9A8952246486F600912ADB /* DisposeBagHolderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisposeBagHolderType.swift; path = "../../../../MVVM2019-master/Library/RxHelper/DisposeBagHolderType.swift"; sourceTree = "<group>"; };
-		6F9A8953246486F600912ADB /* DisposeBagHolderType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DisposeBagHolderType+Extension.swift"; path = "../../../../MVVM2019-master/Library/RxHelper/DisposeBagHolderType+Extension.swift"; sourceTree = "<group>"; };
-		6F9A8957246486F600912ADB /* RxOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxOperator.swift; path = "../../../../MVVM2019-master/Library/RxHelper/RxOperator.swift"; sourceTree = "<group>"; };
-		6F9A8958246486F600912ADB /* Observable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+Ext.swift"; path = "../../../../MVVM2019-master/Library/RxHelper/Observable+Ext.swift"; sourceTree = "<group>"; };
-		6F9A895B246486F600912ADB /* UITextField+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Rx.swift"; sourceTree = "<group>"; };
-		6F9A895C246486F600912ADB /* UIImagePickerController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+Rx.swift"; sourceTree = "<group>"; };
-		6F9A895D246486F600912ADB /* RxImagePickerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxImagePickerDelegateProxy.swift; sourceTree = "<group>"; };
-		6F9A895E246486F600912ADB /* RxTextFieldDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTextFieldDelegateProxy.swift; sourceTree = "<group>"; };
 		6F9A896D24648BD600912ADB /* RecipeIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeIntent.swift; sourceTree = "<group>"; };
 		6F9A897024648BD600912ADB /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		6F9A897124648BD600912ADB /* RecipeTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTypes.swift; sourceTree = "<group>"; };
@@ -174,8 +168,6 @@
 		6F9A897824648BD600912ADB /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 		6F9A897924648BD600912ADB /* RecipeListTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeListTypes.swift; sourceTree = "<group>"; };
 		6F9A897A24648BD600912ADB /* Recipes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Recipes.storyboard; sourceTree = "<group>"; };
-		6FA62DD9246BB6870044CA26 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
-		6FA62DDB246BB6980044CA26 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
 		6FB9AAD924679F6200DC28C3 /* RecipeTypes.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RecipeTypes.xml; sourceTree = "<group>"; };
 		6FB9AADC2467BB5100DC28C3 /* RecipeNavigationTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeNavigationTypes.swift; sourceTree = "<group>"; };
 		6FB9AADE2467BB6900DC28C3 /* RecipeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeNavigationController.swift; sourceTree = "<group>"; };
@@ -186,6 +178,18 @@
 		6FB9AAEB2467D16A00DC28C3 /* LoadMoreItemsViewControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMoreItemsViewControllerType.swift; sourceTree = "<group>"; };
 		6FB9AAEC2467D16A00DC28C3 /* LoadMoreItemsViewControllerTypeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMoreItemsViewControllerTypeExtensions.swift; sourceTree = "<group>"; };
 		6FB9AAED2467D16A00DC28C3 /* ReloadItemsViewControllerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReloadItemsViewControllerType.swift; sourceTree = "<group>"; };
+		6FD2317F246FE55900BFD6E3 /* DisposeBagHolderType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DisposeBagHolderType+Extension.swift"; sourceTree = "<group>"; };
+		6FD23180246FE55A00BFD6E3 /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		6FD23181246FE55A00BFD6E3 /* Observable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
+		6FD23182246FE55B00BFD6E3 /* RxOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxOperator.swift; sourceTree = "<group>"; };
+		6FD23183246FE55B00BFD6E3 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		6FD23184246FE55C00BFD6E3 /* DisposeBagHolderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisposeBagHolderType.swift; sourceTree = "<group>"; };
+		6FD23185246FE55C00BFD6E3 /* StopEventTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopEventTracker.swift; sourceTree = "<group>"; };
+		6FD2318E246FE57900BFD6E3 /* UITextField+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Rx.swift"; sourceTree = "<group>"; };
+		6FD2318F246FE57A00BFD6E3 /* UIImagePickerController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+Rx.swift"; sourceTree = "<group>"; };
+		6FD23190246FE57A00BFD6E3 /* RxTextFieldDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTextFieldDelegateProxy.swift; sourceTree = "<group>"; };
+		6FD23191246FE57B00BFD6E3 /* RxImagePickerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxImagePickerDelegateProxy.swift; sourceTree = "<group>"; };
+		6FD23198246FE59700BFD6E3 /* UIView+RxIsShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RxIsShow.swift"; sourceTree = "<group>"; };
 		6FDC353A2469013F002A7EBB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		6FDC354524690273002A7EBB /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		791FB7A1286194FB269C2C19 /* Pods-Recipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipes.release.xcconfig"; path = "Target Support Files/Pods-Recipes/Pods-Recipes.release.xcconfig"; sourceTree = "<group>"; };
@@ -255,6 +259,14 @@
 			path = NSObject;
 			sourceTree = "<group>";
 		};
+		6F9A659F247128C100BBCC18 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				6F9A65A0247128EE00BBCC18 /* UIView+isShow.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		6F9A88C324614DC400912ADB = {
 			isa = PBXGroup;
 			children = (
@@ -303,8 +315,8 @@
 		6F9A88F22461C5C300912ADB /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				6FD2317E246FDE0500BFD6E3 /* RxHelper */,
 				6F9A89472464822900912ADB /* Helper */,
-				6F9A892D2464693B00912ADB /* RxHelper */,
 				6F9A891A246458AA00912ADB /* Architecture */,
 			);
 			path = Libs;
@@ -438,22 +450,6 @@
 			path = NavigationController;
 			sourceTree = "<group>";
 		};
-		6F9A892D2464693B00912ADB /* RxHelper */ = {
-			isa = PBXGroup;
-			children = (
-				6FA62DD9246BB6870044CA26 /* ActivityIndicator.swift */,
-				6FA62DDB246BB6980044CA26 /* ErrorTracker.swift */,
-				6F9A895A246486F600912ADB /* DelegateProxy */,
-				6F9A8952246486F600912ADB /* DisposeBagHolderType.swift */,
-				6F9A8953246486F600912ADB /* DisposeBagHolderType+Extension.swift */,
-				6F9A8954246486F600912ADB /* Extension */,
-				6F9A8958246486F600912ADB /* Observable+Ext.swift */,
-				6F9A8957246486F600912ADB /* RxOperator.swift */,
-				6F9A8950246486F600912ADB /* StopEventTracker.swift */,
-			);
-			path = RxHelper;
-			sourceTree = "<group>";
-		};
 		6F9A892E2464752B00912ADB /* Dispose */ = {
 			isa = PBXGroup;
 			children = (
@@ -527,26 +523,6 @@
 				6F9A894A246482FA00912ADB /* WeakAssociateObjectUtility.swift */,
 			);
 			path = AssociateObjectUtility;
-			sourceTree = "<group>";
-		};
-		6F9A8954246486F600912ADB /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Extension;
-			path = "../../../../MVVM2019-master/Library/RxHelper/Extension";
-			sourceTree = "<group>";
-		};
-		6F9A895A246486F600912ADB /* DelegateProxy */ = {
-			isa = PBXGroup;
-			children = (
-				6F9A895B246486F600912ADB /* UITextField+Rx.swift */,
-				6F9A895C246486F600912ADB /* UIImagePickerController+Rx.swift */,
-				6F9A895D246486F600912ADB /* RxImagePickerDelegateProxy.swift */,
-				6F9A895E246486F600912ADB /* RxTextFieldDelegateProxy.swift */,
-			);
-			name = DelegateProxy;
-			path = "../../../../MVVM2019-master/Library/RxHelper/DelegateProxy";
 			sourceTree = "<group>";
 		};
 		6F9A896B24648B7D00912ADB /* Recipe */ = {
@@ -635,6 +611,50 @@
 				6FB9AAED2467D16A00DC28C3 /* ReloadItemsViewControllerType.swift */,
 			);
 			path = ReloadItemsViewType;
+			sourceTree = "<group>";
+		};
+		6FD2317E246FDE0500BFD6E3 /* RxHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6FD23196246FE58300BFD6E3 /* Extension */,
+				6FD2318D246FE56600BFD6E3 /* DelegateProxy */,
+				6FD23183246FE55B00BFD6E3 /* ActivityIndicator.swift */,
+				6FD23184246FE55C00BFD6E3 /* DisposeBagHolderType.swift */,
+				6FD2317F246FE55900BFD6E3 /* DisposeBagHolderType+Extension.swift */,
+				6FD23180246FE55A00BFD6E3 /* ErrorTracker.swift */,
+				6FD23181246FE55A00BFD6E3 /* Observable+Ext.swift */,
+				6FD23182246FE55B00BFD6E3 /* RxOperator.swift */,
+				6FD23185246FE55C00BFD6E3 /* StopEventTracker.swift */,
+			);
+			path = RxHelper;
+			sourceTree = "<group>";
+		};
+		6FD2318D246FE56600BFD6E3 /* DelegateProxy */ = {
+			isa = PBXGroup;
+			children = (
+				6FD23191246FE57B00BFD6E3 /* RxImagePickerDelegateProxy.swift */,
+				6FD23190246FE57A00BFD6E3 /* RxTextFieldDelegateProxy.swift */,
+				6FD2318F246FE57A00BFD6E3 /* UIImagePickerController+Rx.swift */,
+				6FD2318E246FE57900BFD6E3 /* UITextField+Rx.swift */,
+			);
+			path = DelegateProxy;
+			sourceTree = "<group>";
+		};
+		6FD23196246FE58300BFD6E3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6FD23197246FE58D00BFD6E3 /* UIKit */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6FD23197246FE58D00BFD6E3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6F9A659F247128C100BBCC18 /* UIView */,
+				6FD23198246FE59700BFD6E3 /* UIView+RxIsShow.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		6FDC353824690121002A7EBB /* CoreData */ = {
@@ -846,17 +866,18 @@
 			files = (
 				6F9A892624645AC200912ADB /* ViewType.swift in Sources */,
 				6FB9AAE52467D0D200DC28C3 /* BasePaginationViewController.swift in Sources */,
-				6F9A8964246486F600912ADB /* RxOperator.swift in Sources */,
 				6F9A892224645AC200912ADB /* DisposableEventHelper.swift in Sources */,
 				6FB9AADD2467BB5100DC28C3 /* RecipeNavigationTypes.swift in Sources */,
 				6F9A8945246479F700912ADB /* BackBarItem.swift in Sources */,
 				6F03C198246A0CEA00F22F54 /* OptionalString+OrEmpty.swift in Sources */,
+				6FD23199246FE59700BFD6E3 /* UIView+RxIsShow.swift in Sources */,
 				6F9A88F92463B65600912ADB /* DI.swift in Sources */,
 				6F9A897F24648BD600912ADB /* RecipeCardCellViewModel.swift in Sources */,
 				6F9A88FF2463B89100912ADB /* DI+View.swift in Sources */,
 				6FB9AAF02467D16A00DC28C3 /* LoadMoreItemsViewControllerTypeExtensions.swift in Sources */,
 				6F9A89392464772B00912ADB /* CustomBarItem.swift in Sources */,
 				6F9A892524645AC200912ADB /* ViewEvent.swift in Sources */,
+				6FD23193246FE57B00BFD6E3 /* UIImagePickerController+Rx.swift in Sources */,
 				6F9A89032463B8A800912ADB /* DI+Model.swift in Sources */,
 				6F9A898424648BD600912ADB /* RecipeListTypes.swift in Sources */,
 				6F9A8944246479F700912ADB /* CloseBarItem.swift in Sources */,
@@ -864,8 +885,8 @@
 				6FB9AADF2467BB6900DC28C3 /* RecipeNavigationController.swift in Sources */,
 				6F9A89172463EF1300912ADB /* BaseViewTypeExtensions.swift in Sources */,
 				6F03C192246A0CEA00F22F54 /* String+IsNilOrEmpty.swift in Sources */,
-				6F9A8965246486F600912ADB /* Observable+Ext.swift in Sources */,
 				6F9A892B2464671900912ADB /* BaseNavigationChildViewController.swift in Sources */,
+				6FD23188246FE55C00BFD6E3 /* Observable+Ext.swift in Sources */,
 				6F9A893B2464772B00912ADB /* UIViewController+BarItemsViewType.swift in Sources */,
 				6F03C193246A0CEA00F22F54 /* Optional+IsNilOrEmpty.swift in Sources */,
 				6FDC354624690273002A7EBB /* Recipe.swift in Sources */,
@@ -873,7 +894,6 @@
 				6F03C1D1246A82EB00F22F54 /* CoreDataStack.swift in Sources */,
 				6F9A8930246475A000912ADB /* UIViewController+Disposable.swift in Sources */,
 				6F9A88FA2463B65600912ADB /* DI+DIRegistor.swift in Sources */,
-				6F9A896A246486F600912ADB /* RxTextFieldDelegateProxy.swift in Sources */,
 				6F9A894D246482FA00912ADB /* AssociatedObjectUtility.swift in Sources */,
 				6F9A897E24648BD600912ADB /* RecipeViewModel.swift in Sources */,
 				6F9A892724645AC200912ADB /* DisposableEvent.swift in Sources */,
@@ -884,42 +904,44 @@
 				6F9A892324645AC200912ADB /* ViewModelType.swift in Sources */,
 				6F9A89152463EF1300912ADB /* BaseViewType.swift in Sources */,
 				6F9A894C246482FA00912ADB /* WeakAssociateObjectUtility.swift in Sources */,
-				6FA62DDA246BB6870044CA26 /* ActivityIndicator.swift in Sources */,
-				6F9A8968246486F600912ADB /* UIImagePickerController+Rx.swift in Sources */,
 				6F9A898124648BD600912ADB /* RecipeListViewController.swift in Sources */,
 				6F9A898024648BD600912ADB /* RecipeListViewModel.swift in Sources */,
+				6FD23187246FE55C00BFD6E3 /* ErrorTracker.swift in Sources */,
 				6FDC353B2469013F002A7EBB /* Model.xcdatamodeld in Sources */,
 				6F03C180246A011B00F22F54 /* AddBarItem.swift in Sources */,
 				6F9A89132463EF1300912ADB /* BaseViewModelType.swift in Sources */,
 				6F03C195246A0CEA00F22F54 /* String+PrettyPrint.swift in Sources */,
 				6FB9AAE82467D0D200DC28C3 /* BasePaginationViewModel.swift in Sources */,
+				6FD2318A246FE55C00BFD6E3 /* ActivityIndicator.swift in Sources */,
+				6FD23186246FE55C00BFD6E3 /* DisposeBagHolderType+Extension.swift in Sources */,
+				6FD23189246FE55C00BFD6E3 /* RxOperator.swift in Sources */,
 				6FB9AAEE2467D16A00DC28C3 /* ReloadItemsViewControllerTypeExtensions.swift in Sources */,
-				6F9A895F246486F600912ADB /* StopEventTracker.swift in Sources */,
 				6FB9AAEF2467D16A00DC28C3 /* LoadMoreItemsViewControllerType.swift in Sources */,
+				6FD23192246FE57B00BFD6E3 /* UITextField+Rx.swift in Sources */,
 				6F9A893C2464772B00912ADB /* BarItemsViewType.swift in Sources */,
+				6FD2318B246FE55C00BFD6E3 /* DisposeBagHolderType.swift in Sources */,
+				6FD2318C246FE55C00BFD6E3 /* StopEventTracker.swift in Sources */,
 				6F9A89122463EF1300912ADB /* BaseViewModel.swift in Sources */,
 				6F9A892424645AC200912ADB /* PresentationBinding.swift in Sources */,
 				6F9A89002463B89100912ADB /* DI+ViewModel.swift in Sources */,
-				6F9A8962246486F600912ADB /* DisposeBagHolderType+Extension.swift in Sources */,
 				6F9A897C24648BD600912ADB /* RecipeViewController.swift in Sources */,
 				6F9A898324648BD600912ADB /* RecipeTableViewCell.swift in Sources */,
 				6F9A89382464772B00912ADB /* BarItem.swift in Sources */,
 				6F9A8946246479F700912ADB /* DoneBarItem.swift in Sources */,
-				6F9A8969246486F600912ADB /* RxImagePickerDelegateProxy.swift in Sources */,
-				6F9A8961246486F600912ADB /* DisposeBagHolderType.swift in Sources */,
 				6F9A897B24648BD600912ADB /* RecipeIntent.swift in Sources */,
+				6F9A65A1247128EE00BBCC18 /* UIView+isShow.swift in Sources */,
 				6FB9AAE72467D0D200DC28C3 /* BasePaginationViewType.swift in Sources */,
 				6F8381A6246861500065B2D3 /* NSObject+TypeName.swift in Sources */,
 				6F9A8943246479F700912ADB /* SaveBarItem.swift in Sources */,
 				6FB9AAF12467D16A00DC28C3 /* ReloadItemsViewControllerType.swift in Sources */,
 				6F03C197246A0CEA00F22F54 /* String+EmptyReplacement.swift in Sources */,
-				6F9A8967246486F600912ADB /* UITextField+Rx.swift in Sources */,
 				6F9A894F2464861300912ADB /* UIView+Disposable.swift in Sources */,
-				6FA62DDC246BB6980044CA26 /* ErrorTracker.swift in Sources */,
 				6F9A88D024614DC400912ADB /* AppDelegate.swift in Sources */,
 				6F9A88D224614DC400912ADB /* SceneDelegate.swift in Sources */,
 				6F03C196246A0CEA00F22F54 /* OptionalString+IsNilOrEmpty.swift in Sources */,
 				6F9A893A2464772B00912ADB /* UIViewController+RxBarItemsViewType.swift in Sources */,
+				6FD23195246FE57B00BFD6E3 /* RxImagePickerDelegateProxy.swift in Sources */,
+				6FD23194246FE57B00BFD6E3 /* RxTextFieldDelegateProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
