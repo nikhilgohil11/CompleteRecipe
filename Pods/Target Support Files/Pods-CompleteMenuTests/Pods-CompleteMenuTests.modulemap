@@ -1,0 +1,6 @@
+framework module Pods_CompleteMenuTests {
+  umbrella header "Pods-CompleteMenuTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
